@@ -1,0 +1,49 @@
+.work {
+    padding-top: 0px;
+    padding-bottom: 94px;
+    display: none;
+    @include desktop {
+        display: block;
+        }
+    }
+    
+    .work__uptitle {
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    margin-bottom: 50px;
+    }
+    
+    .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+    
+    .work-list__wrap {
+    position: relative;
+    }
+    
+    .work-list__img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    }
+
+    .work-list__text {
+    position: absolute;
+    display: flex;
+    bottom: 4px;
+    width: 100%;
+    height: 70px;
+    font-size: 14px;
+    line-height: 1.1428;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-white);
+    background-color: rgba(47, 48, 58, 0.8);
+    }
